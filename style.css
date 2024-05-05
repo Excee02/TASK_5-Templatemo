@@ -39,6 +39,7 @@ nav ul li img:hover {
     display: flex;
     list-style: none;
     justify-content: center;
+    align-content: center;
 }
 
 #first ul li {
@@ -368,6 +369,10 @@ nav ul li img:hover {
 .catalogue>div {
     width: 30%;
     padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 15px;
 }
 
 .catalogue>div img {
@@ -451,7 +456,7 @@ nav ul li img:hover {
     display: grid;
     gap: 20px;
     grid-template-columns: 300px 300px;
-    grid-template-rows: 200px 100px;
+    grid-template-rows: 200px 100px auto;
 }
 
 
@@ -550,6 +555,8 @@ nav ul li img:hover {
     }
     .sixth-container>div h1 {
         margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
     }
 
     /* SEVENTH  */
@@ -576,12 +583,46 @@ nav ul li img:hover {
 
     .seventh-container .right {
         width: 70%;
+    }
+
+    .seventh-container .right button {
+        align: center;
+    }
+    /* EIGHT  */
+    .eight-heading .heading {
+        width: 100%;
+
+    }
+    .catalogue> div {
+    width: 45%;
+    padding: 20px;
+    margin-right: 10px;
+    }
+
+    .tenth-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tenth {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-content: center;
+    }
+
+    .tenth-container .form {
+        
+        position: relative;
+        top: 0px;
+        background-color: #ffffff;
+        width: 80%;
+        margin-top: 50px;
+    }
+
 }
 
 @media(max-width:991px) {
-    #first{
-        background-color: aquamarine;
-    }
 
     .grid-container{
         display: flex;
