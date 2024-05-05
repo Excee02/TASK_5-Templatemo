@@ -171,6 +171,11 @@ nav ul li img:hover {
     text-align: center;
 }
 
+.fourth>div .top:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
 .fourth>div .top p{
     color: orange;
 }
@@ -193,4 +198,8 @@ nav ul li img:hover {
     position: relative;
     left: -550px;
     bottom: -250px;
+}
+.fourth .bottom span img:hover{
+    transition: 1s;
+    transform: scale(1.5);
 }
