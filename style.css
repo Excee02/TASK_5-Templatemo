@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .container {
+    display: flex;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-self: flex-end;
+}
+
+nav ul li {
+    padding-right: 15px;
+}
+nav ul li img  {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+nav ul li img:hover {
+    background-color: orange;
+}
+
+#first {
+    display: flex;
+    margin-bottom: 5vh;
+}
+#first ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#first ul li {
+    margin-right: 10px;
+}
+
+#first ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+#first ul li a:hover {
+    color: orange;
+}
+
+#first button {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+#first button img {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: grey;
+    margin-right: 5px;
+}
+
+#first button:hover {
+    color: orange;
+}
+
+/* Third */
+
+.grid-container{
+    /* width: 100%; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-container .left{
+    width: 30%;
+    background-color: gray;
+    grid-row: span 2 ;
+}
+
+
+
+
+
+.grid-container .Middle-top{
+    background-color: gray;
+}
+
+.grid-container .right {
+   
+    background-color: gray;
+    grid-row: span 2;
+}
+
+.grid-container .Middle-bottom{
+    background-color: gray;
+}
+
+.lol{
+    display: flex;
+    flex-direction: column;
+}
+
+.lol section {
+    display: flex;
+}
+
+.lol img {
+    margin-right: 10px;
+}
+
