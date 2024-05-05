@@ -31,6 +31,9 @@ nav ul li img:hover {
 #first {
     display: flex;
     margin-bottom: 5vh;
+    /* position: fixed;
+    background-color: white;
+    z-index: 1; */
 }
 #first ul {
     display: flex;
@@ -189,6 +192,10 @@ nav ul li img:hover {
     justify-content: center;
 }
 
+.fourth .bottom .video {
+    width: 60%;
+}
+
 .fourth .bottom img{
     border-radius: 20px;    
 }
@@ -203,3 +210,457 @@ nav ul li img:hover {
     transition: 1s;
     transform: scale(1.5);
 }
+
+/* FIFTH  */
+
+.fifth-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%;
+    margin-left: 10%; */
+}
+
+.fifth-container> div{
+    display: flex;
+    padding: 30px;
+    background-color: #ffa50040;
+    border-radius: 10px;
+}
+
+.fifth-container> div h1 {
+    margin-right: 20px;
+}
+
+.fifth-container> div section{
+    width: 50px;
+    height: 50px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    right: -50px;
+}
+
+/* SIXTH  */
+.sixth-container{
+    margin-top: 100px;
+}
+
+.sixth-container h3 {
+    margin-bottom: 30px;
+    color: #ffa500;
+}
+
+.sixth-container>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixth-container>div h1 {
+    width: 30%;
+    line-height: 60px;
+    font-weight: bolder;
+}
+
+.sixth-container>div section {
+    display: flex;
+    align-self: flex-end;
+}
+
+.sixth-container>div section p {
+    padding: 10px 20px  ;
+    margin-right: 10px;
+    background-color: rgb(73, 68, 68);
+    color: white;
+    border-radius: 5px;
+}
+
+.sixth-container>div section p:hover {
+    background-color: #ffa500;
+}
+
+/* SEVENTH  */
+.seventh-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.seventh-container>div {
+    width: 30%;
+}
+
+.seventh-container .left{
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px grey;
+    height: auto;
+}
+
+.seventh-container .left section{
+    display: flex;
+    width: 100%;
+}
+
+.seventh-container .left section p{
+    align-self: center;
+    margin-right: 20px;
+}
+
+.seventh-container .left section h3 {
+    align-self: flex-end;
+}
+
+.seventh-container .middle {
+    width: 40% 
+}
+
+.seventh-container .middle img {
+    width:100%;
+}
+
+.seventh-container .right {
+    width: 20%;
+}
+.seventh-container .right button {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.seventh-container .right button img {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: grey;
+    margin-right: 5px;
+}
+
+.seventh-container .right button:hover {
+    color: orange;
+}
+
+/* EIGHT  */
+
+.eight-heading {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.eight-heading .heading {
+    width: 300px;
+}
+
+.eight-heading .heading p {
+    color: #ffa500;
+}
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalogue>div {
+    width: 30%;
+    padding: 20px;
+}
+
+.catalogue>div img {
+    width: 100%;
+}
+
+.catalogue>div section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogue>div .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.catalogue>div button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.catalogue>div .type {
+    margin-top: 30px;
+    background-color: #ffa50040;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.catalogue>div .price {
+    align-content: flex-end;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffa500;
+}
+
+.catalogue>div h5 {
+    margin: 30px 0px;
+}
+ 
+/* NINTH  */
+.ninth {
+    background-image: url(./assets/images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+}
+.ninth>div {
+    display: flex;
+    justify-content: center;
+}
+.ninth>div .top {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.ninth>div .top:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.ninth>div .top p{
+    color: orange;
+}
+
+.ninth>div .top H2 {
+    color: white;
+}
+
+.tenth-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tenth {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 100px;
+}
+
+
+.tenth .a{
+    grid-column: span 2;
+    box-shadow: 0px 0px 10px 2px grey;
+    z-index: 0;
+}
+
+.tenth .b{
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+.tenth .b img{
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+}
+
+.tenth .b div p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.tenth .c{
+    border-radius: 10px;
+    display:flex;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+.tenth .c img{
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+}
+
+.tenth .c div p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.tenth-container .form {
+    padding: 30px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    top: -280px;
+    background-color: #ffffff;
+}
+
+.tenth-container .form input {
+    width:  100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+}
+
+.tenth-container .form textarea {
+    width:  100%;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+}
+
+.tenth-container .form button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+
+@media(max-width:1199px) {
+    /* SIXTH  */
+    .sixth-container>div{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+    .sixth-container>div section {
+        display: flex;
+        align-self: center;
+        /* margin-bottom: 30px; */
+    }
+    .sixth-container h3 {
+        text-align: center;
+    }
+    .sixth-container>div h1 {
+        margin-bottom: 30px;
+    }
+
+    /* SEVENTH  */
+
+    .seventh-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 500px; */
+    }
+
+    .seventh-container .left{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .seventh-container .middle {
+        width: 70% 
+    }
+    
+    .seventh-container .middle img {
+        width:100%;
+    }
+
+    .seventh-container .right {
+        width: 70%;
+}
+
+@media(max-width:991px) {
+    #first{
+        background-color: aquamarine;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grid-container .Middle-top{
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .grid-container .left{
+        order: 2;
+        margin-bottom: 50px;
+        align-self: center;
+        width: 80%;
+    }
+
+    .grid-container .right {
+        order: 3;
+        margin-bottom: 50px;
+        align-self: center;
+        width: 80%;
+    }
+
+    .grid-container .Middle-bottom {
+        order: 4;
+        align-self: center;
+    }
+
+    .grid-container .left .tables {
+        padding-bottom:50px ;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .grid-container .left span{
+        width: 50px;
+        padding: 30px 15px;
+        border-radius: 50%;
+        background-color: orange;
+        position: relative;
+        left:-400px;
+        top: 240px;
+    }
+     
+    /* FOURTH */
+    .fourth>div .top {
+            margin-top: 20px;
+            padding-bottom: 30px;
+            width: 450px;
+            text-align: center;
+        }
+
+    }
+
+    /* FIFTH  */
+
+    /* .fifth-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    } */
+
+    /* .fifth-container> div{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+
+    .fifth-container> div section{
+        width: 50px;
+        height: 50px;
+        background-color: #ffa500;
+        border-radius: 50%;
+        position: relative;
+        top: -50px;
+        left:250px;
+    }
+
+    
+ */
