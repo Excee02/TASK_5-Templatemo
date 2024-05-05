@@ -8,11 +8,15 @@ nav .container {
     display: flex;
     padding: 10px;
 }
+nav .navig {
+    display: flex;
+    width: 100%;
+}
 
-nav ul {
+nav .navig ul {
     display: flex;
     list-style: none;
-    justify-self: flex-end;
+    justify-items: flex-end;
 }
 
 nav ul li {
@@ -360,6 +364,7 @@ nav ul li img:hover {
 
 .eight-heading .heading {
     width: 300px;
+    margin-bottom: 20px;
 }
 
 .eight-heading .heading p {
@@ -616,6 +621,18 @@ nav ul li img:hover {
         align-items: center;
     }
 
+    .tenth .a{
+        width: 100%;
+    }
+
+    .tenth .b{
+        width: 100%;
+    }
+
+    .tenth .c{
+        width: 100%;
+    }
+
     .tenth-container .form {
         
         position: relative;
@@ -662,6 +679,7 @@ nav ul li img:hover {
     .grid-container .Middle-bottom {
         order: 4;
         align-self: center;
+        width: 80%;
     }
 
     .grid-container .left .tables {
@@ -709,6 +727,10 @@ nav ul li img:hover {
         top: -50px;
         left:750px;
     }
+}
+
+@media(max-width:768px){
+
 }
 
     
