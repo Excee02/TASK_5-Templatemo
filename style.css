@@ -75,6 +75,7 @@ nav ul li img:hover {
 
 .grid-container{
     /* width: 100%; */
+    margin-top: 100px;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -82,39 +83,114 @@ nav ul li img:hover {
 }
 
 .grid-container .left{
-    width: 30%;
-    background-color: gray;
+    /* background-color: gray; */
     grid-row: span 2 ;
 }
 
+.grid-container .left span{
+    width: 50px;
+    padding: 30px 15px;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    left:-40px;
+    top: -40px;
+}
 
+.grid-container .Middle-top {
+    P{
+        color: orange;
+    }
 
-
-
-.grid-container .Middle-top{
-    background-color: gray;
+    H1 {
+        font-weight: bold;
+    }
 }
 
 .grid-container .right {
-   
-    background-color: gray;
     grid-row: span 2;
+   border-radius: 15px;
+   box-shadow: 0px 0px 10px 0px  black;
+    
 }
 
 .grid-container .Middle-bottom{
-    background-color: gray;
+    background-color: rgb(255, 249, 237);
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.grid-container .Middle-bottom .links {
+    color: orange;
+}
+
+.grid-container .Middle-bottom span {
+    font-weight: bold;
+}
+
+.grid-container .Middle-bottom a{
+    text-decoration: none;
 }
 
 .lol{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
 
 .lol section {
     display: flex;
+    padding-left: 10px;
+}
+
+.lol hr {
+    width: 80%;
+    margin-left: 10%;
 }
 
 .lol img {
+    width: 100px;
     margin-right: 10px;
 }
 
+/* FOURTH */
+
+.fourth{
+    background-image: url(./assets/images/video-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth>div {
+    display: flex;
+    justify-content: center;
+}
+.fourth>div .top {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+.fourth>div .top p{
+    color: orange;
+}
+
+.fourth>div .top H2 {
+    color: white;
+}
+
+.fourth .bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.fourth .bottom img{
+    border-radius: 20px;    
+}
+
+.fourth .bottom span img {
+    width: 50px;
+    position: relative;
+    left: -550px;
+    bottom: -250px;
+}
