@@ -17,10 +17,11 @@ nav .navig ul {
     display: flex;
     list-style: none;
     justify-items: flex-end;
+    padding-left: 0;
 }
 
 nav ul li {
-    padding-right: 15px;
+    padding-right: 10px;
 }
 nav ul li img  {
     padding: 10px;
@@ -774,11 +775,37 @@ justify-content: space-between;
         }
 }
 
-    
-    
-    /* 
+@media(max-width:576px){
+     /* FIFTH */
+     .fifth-container> div section{
+        position: relative;
+        top: -50px;
+        left:190px;
+    }
 
-   
-
+    .fifth-container .sumn section{
+        position: relative;
+        top: -50px;
+        left:170px;   
+    }
     
- */
+    #first ul {
+        margin-left:-11px;
+    }
+
+}
+
+@media(max-width:440px){
+    /* FIFTH */
+    .fifth-container> div section{
+       position: relative;
+       top: -50px;
+       left:160px;
+   }
+
+   .fifth-container .sumn section{
+       position: relative;
+       top: -50px;
+       left:140px;   
+   }
+}
