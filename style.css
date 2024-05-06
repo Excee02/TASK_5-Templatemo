@@ -472,6 +472,7 @@ justify-content: space-between;
 .tenth-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .tenth {
@@ -559,6 +560,13 @@ justify-content: space-between;
     border-radius: 20px;
 }
 
+/* FOOTER  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 @media(max-width:1199px) {
     /* SIXTH  */
