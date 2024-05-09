@@ -73,6 +73,10 @@ justify-content: space-between;
     color: orange;
 }
 
+#first>div div{
+    display: flex;
+}
+
 #first button {
     display: flex;
     border-radius: 20px;
@@ -261,6 +265,7 @@ justify-content: space-between;
     top: -50px;
     right: -50px;
 }
+
 
 /* SIXTH  */
 .sixth-container{
@@ -760,7 +765,8 @@ footer {
     } 
 
     .fifth-container> div{
-        margin-bottom: 20px;
+        position: relative;
+        margin-bottom: 5%;
         width: 80%;
     }
 
@@ -819,6 +825,36 @@ footer {
 
 @media(max-width:576px){
 
+    nav .navig {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav .navig .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    nav .navig ul{
+
+    }
+    
+    #first> div{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #first>div div{
+        display: flex;
+        flex-direction: column;
+    }
+
     .fourth .bottom span img {
         width: 30px;
         position: relative;
@@ -845,6 +881,13 @@ footer {
 }
 
 @media(max-width:440px){
+
+    nav .navig {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
     .grid-container .left span{
         width: 30px;
@@ -874,5 +917,24 @@ footer {
        position: relative;
        top: -50px;
        left:140px;   
+   }
+
+   .tenth .a{
+    width: 100%;
+    padding: 0 20px;
+    }
+
+    .tenth .b{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:320px) {
+
+    .fifth-container .sumn section{
+       position: relative;
+       top: -50px;
+       left:50px;   
    }
 }
